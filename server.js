@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000;
 
 // ── Middlewares ──
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://gcc-frontend.vercel.app'],
+  origin: ['http://localhost:3000', 'https://gcc-frontend-flax.vercel.app'],
   credentials: true,
 }));
 app.use(express.json({ limit: '20mb' }));
